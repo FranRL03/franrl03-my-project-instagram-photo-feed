@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+header{
+    background-color: white;
+    height: 100px;
+    margin: -20px -8px;
+}
+
+.container {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header span {
+    padding-top: 20px;
+    color: grey;
+}
+
+.footer, .header{
+    padding-left: 10px;
+    padding-right: 10px;
+}
